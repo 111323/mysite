@@ -2,13 +2,60 @@
 <html>
 <head>
     <title>超级卖场</title>
-
-
+    <meta charset="utf-8" />
+     <meta nane="author" content="xiaoming"/>
+    <link rel ="icon" href="%E7%88%B1%E5%BF%83.png"/>
 </head>
 
 <body>
 
 
+
+    <style>
+        ol li{
+            color: red;
+        }
+        ol>li{
+            background: orange;
+        }
+        [id="1"]+li{
+            color:green;
+        }
+        .lianjie:hover{
+          color: red;
+        }
+    </style>
+<a class="lianjie">这是一个链接</a>
+<li>外部的列表项</li>
+ <ol>
+     <li>子层列表项</li>
+    <li>子层列表项</li>
+ <ul>
+     <li id="1">后代的列表项</li>
+     <li>后代的列表项</li>
+     <li>后代的列表项</li>
+     <li>后代的列表项</li>
+        </ul>
+
+    </ol>
+    <style>
+        #shensuotiao{
+            background: red;
+            height: 50px;
+            width: 100px;
+            animation: myani 1s infinite alternate;
+
+        }
+        @keyframes myani{
+            from{width: 0}
+            to{width: 100px}
+        }
+    </style>
+    <div id="shensuotiao"></div>
+
+
+    <link rel="stylesheet" href=""/>
+    <h1>大标题</h1>
 </body>
 
 
