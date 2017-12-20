@@ -1,7 +1,20 @@
-body{
-    font-family: simhei;
-    background-color: #FAFAFA;
-}
-h1{
-   color: blue;
+ body {
+        padding: 0;
+        margin: 0;
+    }
+
+    #wangzhanshouye {
+        font-size: 18px;
+        color:blue;
+        margin-left: 100px;
+    }
+
+    #chanpingzhongxin {
+        font-size:18px;
+        margin-left: 50px;
+    }
+
+#wenzi {font-size: 24px;
+        color:red;
+
 }

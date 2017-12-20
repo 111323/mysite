@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>这是一个神奇的网站</title>
+    <meta charset="utf-8" />
+    <meta nane="author" content="章丹丹" />
+    <link rel="icon" href="%E7%88%B1%E5%BF%83.png" />
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id='picbox' class="row">
+        <div id='minpic' class="col-xs-6 col-md-3">
+            <a href="#" class="thumbnail">
+                <img id='tupian' src='%E5%A5%B3%E5%AD%A9.png' alt="...">
+                <h4 id='wenzi'>hello!</h4>
+            </a>
+        </div>
+    </div>
+
+</body>
+
+<head>
+    <script>
+        var nvhai = {
+            src: '女孩.png',
+            wenzi: '女孩',
+        }
+
+        var xiaogou = {
+            src: '小狗.png',
+            wenzi: '小狗',
+        }
+        var jihe = [nvhai, xiaogou];
+
+        function fuzhi(shuju)
+        {
+            var fuben = $('#minpic').clone(); //给克隆的对象取个外号
+            fuben.find('#wenzi').html(shuju.wenzi); //在克隆的对象里面找到文字并且修改
+            fuben.find('#wenzi').css({color: '#000' }); //修改样式颜色
+            fuben.find('#tupian').attr('src', shuju.src); //修改图片
+            fuben.appendTo($('#picbox')); //把克隆对象添加到box里面去
+         }
+        for (var i = 0; i <2; i++) {
+            fuzhi(jihe[i])
+        }
+
+        //    $('#picbox').addend($('#minpic').clone());
+        //    $('#minpic').clone().appendTo($('#picbox'));
+    </script>
+</head>
+
+</html>
