@@ -59,7 +59,11 @@
 
 .tuijianxianlubeijing {
     height: 650px;
+<<<<<<< HEAD
     background: #e8e2e2;
+=======
+    background: #fff;
+>>>>>>> origin/master
 }
 
 .tuijianxianlubeijing1 {
@@ -115,9 +119,12 @@
     font-size: 8px;
     color: #fff;
        margin-top: 15px;
+<<<<<<< HEAD
      border-radius: 0px;
     padding-left: 24px;
     padding-right: 24px;
+=======
+>>>>>>> origin/master
 
 }
 
@@ -163,6 +170,7 @@
 }
 
 .weizhi2 {
+<<<<<<< HEAD
     margin-top: 30px;
 }
 
@@ -173,6 +181,15 @@
     border-radius: 0px;
     padding-left: 24px;
     padding-right: 24px;
+=======
+    margin-top: 50px;
+}
+
+.anniu {
+      font-size: 24px;
+    color: #fff;
+       margin-top: 15px;
+>>>>>>> origin/master
 
 }
 
@@ -204,6 +221,7 @@
        height:400px;
     background: #dbdbe0
 }
+<<<<<<< HEAD
 
 .tuijianxianlubeijing5 {
     background:#08b3ff;
@@ -336,3 +354,5 @@ display: inline-block;
 .dd {
 
 }
+=======
+>>>>>>> origin/master
