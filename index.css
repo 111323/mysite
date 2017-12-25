@@ -4,17 +4,335 @@
     }
 
     #wangzhanshouye {
-        font-size: 18px;
+        font-size: 14px;
         color:blue;
         margin-left: 100px;
     }
 
     #chanpingzhongxin {
-        font-size:18px;
+        font-size:14px;
         margin-left: 50px;
     }
 
 #wenzi {font-size: 24px;
         color:red;
+
+}
+
+.yewubeijing {
+    background: #fff;
+    height: 140px;
+}
+
+.qianzhen {
+    text-align: center;
+/*    居中*/
+    top: 15px;
+}
+
+.yewu {
+    background: red
+}
+
+#qianzhenziti {
+    font-size:12px;
+}
+
+.tuijianxianlu {
+    font-size: 24px;
+     text-align: center;
+    margin-top: 10px;
+
+}
+
+#ziti1 {
+     font-size: 8px;
+     text-align: center;
+}
+
+#suibian {
+    position: relative;
+    margin-top: 10px;
+/*    往下移*/
+
+}
+
+.tuijianxianlubeijing {
+    height: 650px;
+    background: #e8e2e2;
+}
+
+.tuijianxianlubeijing1 {
+     height:380px;
+    background: #08b3ff;
+}
+
+#ziti {
+      font-size: 8px;
+     text-align: center;
+}
+
+.weizhi {
+     position: relative;
+    margin-top: 30px;
+
+}
+
+
+.dingzhi {
+    font-size:24px;
+     text-align: center;
+
+}
+
+#dingzhi {
+    font-size: 18px;
+    color: #fff;
+}
+
+.dingzhi2 {
+     font-size:12px;
+
+}
+
+#dingzhi2 {
+     font-size:8px;
+    color: #fff;
+
+}
+
+
+
+#anniu {
+    text-align: center;
+}
+
+#anniu1 {
+    display: inline-block;
+}
+
+.anniu1 {
+    font-size: 8px;
+    color: #fff;
+       margin-top: 15px;
+     border-radius: 0px;
+    padding-left: 24px;
+    padding-right: 24px;
+
+}
+
+.anniu1 {
+    font-size: 24px;
+     text-align: center;
+
+}
+
+.tuijianxianlubeijing2 {
+     height:400px;
+    background: #e6e6e6;
+
+
+}
+
+#dingzhi1 {
+        font-size: 18px;
+    color: #000;
+}
+
+#dingzhi3 {
+      font-size: 18px;
+    margin-top: 10px;
+    color:#08b3ff;
+}
+
+#gonglue1 {
+    font-size: 8px;
+    text-align: center;
+ margin-top: 30px;
+}
+
+#gonglue {   font-size: 8px;
+    text-align: center;
+    margin-top: 0px;}
+}
+
+}
+
+.weizhi {
+
+}
+
+.weizhi2 {
+    margin-top: 30px;
+}
+
+.anniu {
+      font-size: 16px;
+    color: #fff;
+       margin-top: 15px;
+    border-radius: 0px;
+    padding-left: 24px;
+    padding-right: 24px;
+
+}
+
+.anniu1 {
+      font-size: 16px;
+    color: #fff;
+       margin-top: 15px;
+
+}
+
+.guanyu {
+      text-align: center;
+}
+
+.shangyi {
+    margin-top: -350px;
+}
+
+.jianju {
+    margin-right: 200px;
+}
+
+.xuanzeziti {
+    margin-top:
+        10px;
+}
+
+.tuijianxianlubeijing3 {
+       height:400px;
+    background: #dbdbe0
+}
+
+.tuijianxianlubeijing5 {
+    background:#08b3ff;
+    height: 200px;
+}
+
+#zihao {
+    text-align: center;
+    font-size: 8px;
+}
+
+#zixing {
+     text-align: center;
+    font-size: 24px;
+    margin-top: 15px;
+}
+}
+
+#qiangzh {
+    text-align: left
+}
+
+#gengduo1 {
+ text-align: right;
+    font-size: 8px;
+}
+
+#luyou {
+    margin-top: 15px;
+    text-align: left;
+    font-size: 8px;
+    color:  #707474;
+}
+
+#qianzheng {
+    text-align: left;
+    font-size: 14px;
+}
+
+.tuijianxianlubeijing6 {
+/*     background: #08b3ff;*/
+    height: 200px;
+}
+
+
+.zixun {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.zixun1 {
+    font-size: 8px;
+}
+
+.tuijianxianlubeijing4 {
+    height: 420px;
+}
+.xiala1 {
+
+font-size: 18px;
+margin-top: 20px;
+    color: #fff;
+    text-align: center
+
+
+}
+
+.yanse {
+    color: #fff;
+    font-size: 12px;
+    margin-top: 15px;
+    text-align: center
+}
+
+.tupian {
+display: inline-block;
+}
+
+.beijing {
+    background:#0894fb ;
+    height:100px;
+}
+
+.beianhao {
+    display: inline-block;
+    text-align: center;
+}
+
+.tuijianbeijing {
+        background: #08b3ff;
+    height:512px;
+    margin-top: 20px;
+}
+
+#xianlu {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#xiaozi {
+    font-size: 8px;
+    margin-top: 5px;
+    text-align: left;
+}
+
+
+
+#guojia {
+    font-size: 16px;
+    margin-top: 15px;
+     text-align: left;
+}
+
+.bf {
+    background: red;
+    height: 500px
+
+}
+
+.onpic {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: #ccc;
+    margin: 150px
+}
+
+.dd {
 
 }
